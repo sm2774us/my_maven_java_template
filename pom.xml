@@ -19,9 +19,9 @@
 
     <!-- Check here for your SCM http://maven.apache.org/scm/scms-overview.html -->
     <scm>
-        <connection>scm:git:https://github.com/smajumdar/my_maven_java_template.git</connection>
-        <developerConnection>scm:git:https://github.com/smajumdar/my_maven_java_template.git</developerConnection>
-        <url>scm:git:https://github.com/smajumdar/my_maven_java_template.git</url>
+        <connection>scm:git:https://github.com/sm2774us/my_maven_java_template.git</connection>
+        <developerConnection>scm:git:https://github.com/sm2774us/my_maven_java_template.git</developerConnection>
+        <url>scm:git:https://github.com/sm2774us/my_maven_java_template.git</url>
     </scm>
 
     <!-- Generates the license info for the site report. -->
