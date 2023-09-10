@@ -1,11 +1,11 @@
 # Maven Site Docs Example
 
 This is a Java project showing how to set up Apache Maven to generate a wide array of useful reports. You can see
-the generated reports for [this project here](https://wiverson.github.io/maven-site-docs-example/).
+the generated reports for [this project here](https://sm2774us.github.io/my_maven_java_template/).
 
 Some reports I use on every project include
-the [code coverage report](https://wiverson.github.io/maven-site-docs-example/jacoco/index.html) and
-the [automatic dependency checker](https://wiverson.github.io/maven-site-docs-example/dependency-updates-report.html) -
+the [code coverage report](https://sm2774us.github.io/my_maven_java_template/jacoco/index.html) and
+the [automatic dependency checker](https://sm2774us.github.io/my_maven_java_template/dependency-updates-report.html) -
 it's very nice to see what dependencies are out of date!
 
 Included reports:
@@ -26,7 +26,7 @@ Included reports:
 
 
 This [project includes a GitHub Action](https://github.com/wiverson/maven-site-docs-example/blob/main/.github/workflows/maven-package.yml)
-which automatically publishes the [generated documentation](https://wiverson.github.io/maven-site-docs-example/) to
+which automatically publishes the [generated documentation](https://sm2774us.github.io/my_maven_java_template/) to
 GitHub Pages.
 
 To use, simply check out and run:
