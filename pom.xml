@@ -2,26 +2,26 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.changenode</groupId>
-    <artifactId>maven-site-docs-example</artifactId>
+    <groupId>com.learning</groupId>
+    <artifactId>my_maven_java_template</artifactId>
 
     <!-- Please use standard version numbering! http://mojo.codehaus.org/versions-maven-plugin/version-rules.html -->
     <version>1.0-SNAPSHOT</version>
 
-    <name>maven-site-docs-example</name>
+    <name>my_maven_java_template</name>
     <description>Demonstrates the use of various Maven site documentation systems.</description>
 
     <!-- Required by the site command for certain relative URL configuration. -->
-    <url>https://wiverson.github.io/maven-site-docs-example/</url>
+    <url>https://sm2774us.github.io/my_maven_java_template/</url>
 
     <!-- Used by the javadoc plugin to generate the comments at the bottom. -->
-    <inceptionYear>2013</inceptionYear>
+    <inceptionYear>2023</inceptionYear>
 
     <!-- Check here for your SCM http://maven.apache.org/scm/scms-overview.html -->
     <scm>
-        <connection>scm:git:https://github.com/wiverson/maven-site-docs-example.git</connection>
-        <developerConnection>scm:git:https://github.com/wiverson/maven-site-docs-example.git</developerConnection>
-        <url>scm:git:https://github.com/wiverson/maven-site-docs-example.git</url>
+        <connection>scm:git:https://github.com/smajumdar/my_maven_java_template.git</connection>
+        <developerConnection>scm:git:https://github.com/smajumdar/my_maven_java_template.git</developerConnection>
+        <url>scm:git:https://github.com/smajumdar/my_maven_java_template.git</url>
     </scm>
 
     <!-- Generates the license info for the site report. -->
@@ -43,26 +43,26 @@
         http://maven.apache.org/plugins/maven-changes-plugin/usage.html -->
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/wiverson/maven-site-docs-example/issues/</url>
+        <url>https://github.com/smajumdar/my_maven_java_template/issues/</url>
     </issueManagement>
 
     <organization>
-        <name>Will Iverson</name>
-        <url>https://www.changenode.com/</url>
+        <name>Shaikat Majumdar</name>
+        <url>https://sm2774us.wixsite.com/smajumdar</url>
     </organization>
 
     <!-- These are used in conjunction with the SCM configuration for the change
         log reports. -->
     <developers>
         <developer>
-            <id>wiverson</id>
-            <name>Will Iverson</name>
-            <email>wiverson@lambda.home</email>
+            <id>smajumdar</id>
+            <name>Shaikat Majumdar</name>
+            <email>sm2774us@gmail.com</email>
         </developer>
         <developer>
-            <id>will-iverson</id>
-            <name>William Iverson</name>
-            <email>wiverson AT gmail DOT com</email>
+            <id>shaikat-majumdar</id>
+            <name>Shaikat Majumdar</name>
+            <email>sm2774us@gmail.com</email>
         </developer>
     </developers>
 
