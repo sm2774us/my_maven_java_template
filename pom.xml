@@ -43,7 +43,7 @@
         http://maven.apache.org/plugins/maven-changes-plugin/usage.html -->
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/smajumdar/my_maven_java_template/issues/</url>
+        <url>https://github.com/sm2774us/my_maven_java_template/issues/</url>
     </issueManagement>
 
     <organization>
@@ -59,13 +59,7 @@
             <name>Shaikat Majumdar</name>
             <email>sm2774us@gmail.com</email>
         </developer>
-        <developer>
-            <id>shaikat-majumdar</id>
-            <name>Shaikat Majumdar</name>
-            <email>sm2774us@gmail.com</email>
-        </developer>
     </developers>
-
 
     <build>
         <!-- Used to bump all of the various core plugins up to Maven current.
