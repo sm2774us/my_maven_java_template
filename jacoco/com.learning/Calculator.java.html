@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Calculator.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">my_maven_java_template</a> &gt; <a href="index.source.html" class="el_package">com.learning</a> &gt; <span class="el_source">Calculator.java</span></div><h1>Calculator.java</h1><pre class="source lang-java linenums">package com.learning;
+
+import java.util.EventListener;
+import java.util.StringTokenizer;
+
+/**
+ * Simple Calculator for demonstration purposes.
+ */
+<span class="fc" id="L9">public class Calculator {</span>
+
+    private double state;
+
+    /**
+     *
+     * @param value to add to register
+     * @return the original Calculator object
+     */
+    public Calculator add(double value) {
+<span class="fc" id="L19">        state += value;</span>
+<span class="fc" id="L20">        return this;</span>
+    }
+
+    /**
+     *
+     * @param value to subtract from the register
+     * @return the original Calculator object
+     */
+    public Calculator subtract(double value) {
+<span class="fc" id="L29">        state -= value;</span>
+<span class="fc" id="L30">        return this;</span>
+    }
+
+    /**
+     *
+     * @param value to multiply the register by
+     * @return the original Calculator object
+     */
+    public Calculator multiply(double value) {
+<span class="fc" id="L39">        state = state * value;</span>
+<span class="fc" id="L40">        return this;</span>
+    }
+
+    /**
+     *
+     * @param value to divide the register by
+     * @return the original Calculator object
+     */
+    public Calculator divide(double value) {
+<span class="fc" id="L49">        state = state / value;</span>
+<span class="fc" id="L50">        return this;</span>
+    }
+
+    /**
+     *
+     * @return current value of the register
+     */
+    public double value() {
+<span class="fc" id="L58">        return state;</span>
+    }
+
+    /**
+     *
+     * @param value to apply transwarp value
+     * @return the original Calculator object
+     */
+    public Calculator transwarp(double value) {
+
+        // TODO figure out the transwarp requirements.
+<span class="nc" id="L69">        throw new UnsupportedOperationException(&quot;No transwarp defined.&quot;);</span>
+    }
+
+    /**
+     *
+     * Method intended to trip the PMD violations error. Hopefully you find this method as horrifying as I do even without PMD.
+     *
+     * @param foo random string
+     * @param bar random string
+     * @param spam untyped Object FTW
+     * @param eventListener some kind of events...?
+     * @param stringTokenizer because why not?
+     * @return some number
+     */
+    public int arbitrarilyComplexMethod(String foo, int bar, Object spam, EventListener eventListener, StringTokenizer stringTokenizer) {
+
+        try {
+<span class="fc" id="L86">            System.out.println(foo);</span>
+<span class="nc" id="L87">        } catch (Exception e) {</span>
+
+<span class="fc" id="L89">        }</span>
+
+        try {
+<span class="fc" id="L92">            System.out.println(foo);</span>
+<span class="nc" id="L93">        } catch (Exception e) {</span>
+
+<span class="fc" id="L95">        }</span>
+
+
+<span class="pc bpc" id="L98" title="1 of 2 branches missed.">        if (foo == &quot;bar&quot;)</span>
+<span class="fc" id="L99">            return 0;</span>
+
+<span class="nc bnc" id="L101" title="All 2 branches missed.">        if (bar++ == -100)</span>
+<span class="nc" id="L102">            return Long.BYTES;</span>
+
+<span class="nc" id="L104">        return Integer.valueOf(foo + bar + spam.toString() + eventListener.toString() + stringTokenizer.toString());</span>
+    }
+
+    /**
+     * Method intended to trip the CPM violations error
+     *
+     * @param foo random string
+     * @param bar random string
+     * @param spam untyped Object FTW
+     * @param eventListener some kind of events...?
+     * @param stringTokenizer because why not?
+     * @return some number
+     */
+    public int arbitrarilyComplexMethodPart2(String foo, int bar, Object spam, EventListener eventListener, StringTokenizer stringTokenizer) {
+        try {
+<span class="fc" id="L119">            System.out.println(foo);</span>
+<span class="nc" id="L120">        } catch (Exception e) {</span>
+
+<span class="fc" id="L122">        }</span>
+
+        try {
+<span class="fc" id="L125">            System.out.println(foo);</span>
+<span class="nc" id="L126">        } catch (Exception e) {</span>
+
+<span class="fc" id="L128">        }</span>
+
+<span class="pc bpc" id="L130" title="1 of 2 branches missed.">        if (foo == &quot;bar&quot;)</span>
+<span class="fc" id="L131">            return 0;</span>
+
+<span class="nc bnc" id="L133" title="All 2 branches missed.">        if (bar++ == -100)</span>
+<span class="nc" id="L134">            return Long.BYTES;</span>
+
+<span class="nc" id="L136">        return Integer.valueOf(foo + bar + spam.toString() + eventListener.toString() + stringTokenizer.toString());</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
