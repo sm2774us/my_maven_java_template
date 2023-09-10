@@ -1,0 +1,17 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+/target
+
+# Eclipse project files
+.settings
+.classpath
+.project
+
+# IDEA project files
+*.iml
+.idea
+.DS_Store
