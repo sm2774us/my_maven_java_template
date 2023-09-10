@@ -6,7 +6,7 @@
     <artifactId>my_maven_java_template</artifactId>
 
     <!-- Please use standard version numbering! http://mojo.codehaus.org/versions-maven-plugin/version-rules.html -->
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
 
     <name>my_maven_java_template</name>
     <description>Demonstrates the use of various Maven site documentation systems.</description>
